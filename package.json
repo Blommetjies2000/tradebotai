@@ -1,0 +1,15 @@
+{
+  "name": "tradebotai-backend",
+  "version": "1.0.0",
+  "description": "Bridge server for TradeBot AI - receives account/trade data from the MT4/MT5 EA and serves it to the dashboard.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
